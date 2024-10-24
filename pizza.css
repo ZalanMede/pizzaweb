@@ -1,21 +1,28 @@
-html{
+body{
     font-family: sans-serif;
     color: white;
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     background-image: url(img/pizza.jpg);
-    background-size: 100% 200%;
-    background-position: 50% 50%;
-    height: 35vh;
+    background-size: 115% 230%;
+    background-position: 50% 45%;
+    height: 60vh;
     width: 100%;
+    border-top: 50px solid rgba(1,1,1,0.5);
 }
 
 header h1{
     width: 5vw;
     float: left;
-    margin: 20px 15px;
+    margin: 40px 25px;
+}
+
+h2, h3{
+    margin: 0;
 }
 
 .menu{
@@ -25,15 +32,19 @@ header h1{
     flex: auto;
     flex-direction: row;
     padding: 0px 5px;
-    margin: 15px 0px;
+    margin: 35px 15px;
 }
 
 .menu a{
     color: white;
     text-decoration: none;
-    margin: 15px 5px;
+    margin: 16px 5px;
 }
 
+header, section, article, summary, footer{
+    margin: 0;
+    padding: 0;
+}
 
 section > div > img{
     width: 100%;
@@ -42,4 +53,12 @@ section > div > img{
 
 .ballraIgazitas{
     text-align: right;
+}
+
+#tortenetArticle, section{
+    background-color: #222222;
+}
+
+#menuArticle, summary, footer{
+    background-color: #101010;
 }
