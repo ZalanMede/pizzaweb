@@ -8,7 +8,7 @@ body{
 
 header{
     background-image: url(img/pizza.jpg);
-    background-size: 115% 230%;
+    background-size: 115% 200%;
     background-position: 50% 45%;
     height: 60vh;
     width: 100%;
@@ -23,6 +23,16 @@ header h1{
 
 h2, h3{
     margin: 0;
+}
+
+p{
+    color: #cecece;
+}
+
+h6{
+    font-size: medium;
+    color: #cecece;
+    margin: 15px 0;
 }
 
 .menu{
@@ -61,4 +71,44 @@ section > div > img{
 
 #menuArticle, summary, footer{
     background-color: #101010;
+}
+
+#tortenetArticle{
+    display: flex;
+    flex-direction: row;
+    padding: 7.5vh 17vw 7.5vh 0;
+}
+
+#tortenetDiv1{
+    width: 75%;
+    margin: 0 2vw 0 0;
+}
+
+#tortenetDiv2{
+    width: 99%;
+    position: relative;
+    bottom: 2vh;
+}
+
+#tortenetDiv1 > h2, #tortenetDiv1 > h6{
+    text-align: right;
+}
+
+#tortenetDiv2 > p{
+    text-align: left;
+    line-height: 25px;
+}
+
+#menuArticle > div > h2, p, button{
+    text-align: center;
+}
+
+#menuArticle > div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 15vw;
+}
+
+#menuArticle > div > div{
+    
 }
