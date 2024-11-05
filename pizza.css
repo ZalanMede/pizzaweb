@@ -27,12 +27,14 @@ h2, h3{
 
 p{
     color: #cecece;
+    line-height: 25px;
 }
 
 h6{
     font-size: medium;
     color: #cecece;
     margin: 15px 0;
+    font-weight: lighter;
 }
 
 .menu{
@@ -96,7 +98,6 @@ section > div > img{
 
 #tortenetDiv2 > p{
     text-align: left;
-    line-height: 25px;
 }
 
 #menuArticle > div > h2, p, button{
@@ -107,8 +108,38 @@ section > div > img{
     display: flex;
     flex-direction: column;
     margin: 0 15vw;
+    padding: 7.5vh 0 7.5vh 0;
 }
 
 #menuArticle > div > div{
-    
+    margin: auto auto;
 }
+
+#menuArticle > div > h6{
+    text-align: center;
+}
+
+.artButton {
+    border: #cecece solid 1px;
+    background-color: #101010;
+    color: white;
+    width: 12vw;
+    height: 5vh;
+    font-variant: small-caps;
+    font-weight: 590;
+    margin: 1vh 1vw;
+}
+
+#kepTarto {
+    display: grid;
+    grid-template-columns: repeat(3, 15vw);
+    grid-template-rows: repeat(3, 15vh);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+    
+#div1 { grid-area: 1 / 1 / 3 / 3; }
+#div2 { grid-area: 1 / 3 / 3 / 4; }
+#div3 { grid-area: 3 / 1 / 4 / 2; }
+#div4 { grid-area: 3 / 2 / 4 / 3; }
+#div5 { grid-area: 3 / 3 / 4 / 4; }
