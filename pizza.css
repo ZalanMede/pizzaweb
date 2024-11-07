@@ -130,12 +130,37 @@ section > div > img{
     margin: 1vh 1vw;
 }
 
+section{
+    height: 110vh;
+}
+
 #kepTarto {
+    margin: 0 25% 0 25%;
     display: grid;
     grid-template-columns: repeat(3, 15vw);
     grid-template-rows: repeat(3, 15vh);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+}
+
+#kepTarto > #div1 > img{
+    width: 100%;
+    height: auto;
+}
+
+#kepTarto > #div2 > img{
+    width: 100%;
+    height: 100%;
+}
+
+#kepTarto > #div3 > img, #kepTarto > #div4 > img{
+    width: 100%;
+    height: auto;
+}
+
+#kepTarto > #div5 > img{
+    width: 100%;
+    height: auto;
 }
     
 #div1 { grid-area: 1 / 1 / 3 / 3; }
