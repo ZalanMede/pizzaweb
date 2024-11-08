@@ -1,18 +1,17 @@
 body{
     font-family: sans-serif;
     color: white;
-    background-color: black;
+    background-color: #101010;
     margin: 0;
     padding: 0;
 }
 
 header{
     background-image: url(img/pizza.jpg);
-    background-size: 115% 200%;
-    background-position: 50% 45%;
+    background-size: 125% 200%;
+    background-position: 50% 58%;
     height: 60vh;
     width: 100%;
-    border-top: 50px solid rgba(1,1,1,0.5);
 }
 
 header h1{
@@ -58,15 +57,6 @@ header, section, article, summary, footer{
     padding: 0;
 }
 
-section > div > img{
-    width: 100%;
-    height: 100%;
-}
-
-.ballraIgazitas{
-    text-align: right;
-}
-
 #tortenetArticle, section{
     background-color: #222222;
 }
@@ -107,8 +97,9 @@ section > div > img{
 #menuArticle > div{
     display: flex;
     flex-direction: column;
-    margin: 0 15vw;
+    margin: 0 25vw;
     padding: 7.5vh 0 7.5vh 0;
+    width: 50%;
 }
 
 #menuArticle > div > div{
@@ -131,7 +122,22 @@ section > div > img{
 }
 
 section{
-    height: 110vh;
+    height: 80vh;
+}
+
+section > h2{
+    text-align: center;
+    padding-top: 5vh;
+}
+
+section > h6{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+section > div > img{
+    width: 100%;
+    height: 100%;
 }
 
 #kepTarto {
@@ -143,24 +149,45 @@ section{
     grid-row-gap: 5%;
 }
 
-#kepTarto > #div1 > img{
-    width: 100%;
-    height: auto;
-}
 
-#kepTarto > #div2 > img{
+#div1{
     width: 100%;
     height: 100%;
+    background-image: url(img/pizza.jpg);
+    background-size: 100% 180%;
+    background-position: 50% 50%;
 }
 
-#kepTarto > #div3 > img, #kepTarto > #div4 > img{
+#div2{
     width: 100%;
-    height: auto;
+    height: 100%;
+    background-image: url(img/steak.jpg);
+    background-size: 100% 180%;
+    background-position: 50% 50%;
 }
 
-#kepTarto > #div5 > img{
+#div3{
     width: 100%;
-    height: auto;
+    height: 100%;
+    background-image: url(img/vegyesSalata.jpg);
+    background-size: 100% 180%;
+    background-position: 50% 50%;
+}
+
+#div4{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/pizzaCloseUp.jpg);
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+}
+
+#div5{
+    width: 16vw;
+    height: 16vh;
+    background-image: url(img/eloetel.jpg);
+    background-size: 100% 180%;
+    background-position: 50% 50%;
 }
     
 #div1 { grid-area: 1 / 1 / 3 / 3; }
@@ -168,3 +195,57 @@ section{
 #div3 { grid-area: 3 / 1 / 4 / 2; }
 #div4 { grid-area: 3 / 2 / 4 / 3; }
 #div5 { grid-area: 3 / 3 / 4 / 4; }
+
+summary{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 0 10% 0 10%;
+}
+
+summary > div{
+    width: 100%;
+    margin: 50px 2%;
+}
+
+summary > div > h2{
+    text-align: right;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#szeretetTarto{
+    width: 5%;
+}
+
+#nyitvaTarto{
+    width: 90%;
+}
+
+#nyitvaTarto > p{
+    text-align: left;
+    margin: 0 0;
+}
+
+#foglalasTarto{
+    width: 90%;
+}
+
+#foglalasTarto > p{
+    text-align: left;
+}
+
+#foglalasTarto > a{
+    color: white;
+    font-weight: 600;
+}
+
+footer{
+    width: 50%;
+    padding: 0 25%;
+    margin: 0 auto;
+}
+
+footer > p{
+    text-align: center;
+}
