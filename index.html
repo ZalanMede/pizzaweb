@@ -10,7 +10,7 @@
     <header>
         <h1>Pizzéria</h1>
 
-        <div class="menu">
+        <div id="menu">
             <p class="menuPont">KEZDŐLAP  /  </p>
             <a class="menuPont" href="">MENÜ</a>
             <p class="menuPont">  /  </p>
@@ -18,6 +18,7 @@
             <p class="menuPont">  /  </p>
             <a class="menuPont" href="">KAPCSOLAT</a>
         </div>
+        <a href="javascript:void(0);" id="hambMenu" onclick="hamburgerMenu()">_<br>_<br>_</a>
     </header>
     <article id="tortenetArticle">
         <div id="tortenetDiv1">
@@ -93,5 +94,18 @@
         <p>Piadina Pizzéria, 1013 Budapest, Clark Ádám tér 1., +36-67-632-456</p>
         <p>Az oldalt a Webnode működteti</p>
     </footer>
+
+
+
+    <script>
+        function hamburgerMenu() {
+          let  x = document.getElementById("menu");
+          if (x.style.display === "flex") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "flex";
+          }
+        }
+    </script>
 </body>
 </html>

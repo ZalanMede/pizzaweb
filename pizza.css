@@ -36,7 +36,7 @@ h6{
     font-weight: lighter;
 }
 
-.menu{
+#menu{
     float: right;
     display: flex;
     flex-wrap: nowrap;
@@ -46,13 +46,13 @@ h6{
     margin: 35px 15px;
 }
 
-.menu a{
+#menu a{
     color: white;
     text-decoration: none;
     margin: 16px 5px;
 }
 
-.menu p{
+#menu p{
     position: relative;
     bottom: 3px;
 }
@@ -291,4 +291,45 @@ footer{
 footer > p{
     text-align: center;
     font-size: 12px;
+}
+
+
+
+/* hambruger menu dolgok*/
+#hambMenu{
+    display: none;
+    color: white;
+    line-height: 8px;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+/* MD méret*/
+
+@media screen and (max-width: 768px){
+    #menu{
+        display: none;
+        margin: 37px 75px;
+    }
+
+    #hambMenu{
+        display: block;
+
+        position: absolute;
+        top: 37px;
+        right: 50px;
+    }
+}
+
+
+/* Mobil méret*/
+
+@media screen and (max-width: 576px){
+    #menu{
+        display: none;
+    }
+
+    #hambMenu{
+        display: block;
+    }
 }
