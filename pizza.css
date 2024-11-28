@@ -8,7 +8,7 @@ body{
 
 header{
     background-image: url(img/pizza.jpg);
-    background-size: 125% 200%;
+    background-size: cover;
     background-position: 50% 38%;
     height: 50vh;
     width: 100%;
@@ -319,6 +319,41 @@ footer > p{
         top: 37px;
         right: 50px;
     }
+
+    header{
+        background-size: 180%;
+        background-position: 50% 38%;
+        height: 50vh;
+        width: 100%;
+    }
+
+    #tortenetArticle{
+        padding: 6vh 1vw 6vh 7.5vw;
+    }
+
+    #tortenetDiv1{
+        width: 25%;
+    }
+
+    #menuArticle > div{
+        padding: 6vh 0px;
+        width: 80%;
+        margin: 0 10vw;
+    }
+
+    #kepTarto{
+        width: 95%;
+    }
+
+    summary{
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    footer{
+        width: 100%;
+        padding: 0px 0px;
+    }
 }
 
 
@@ -332,4 +367,6 @@ footer > p{
     #hambMenu{
         display: block;
     }
+
+
 }
