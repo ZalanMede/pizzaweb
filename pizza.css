@@ -209,7 +209,7 @@ section > div > img{
     margin: 0px 0px;
     text-align: center;
     color: white;
-    font-size: 12px;
+    font-size: 9px;
 }
 
 #div1 > p{
@@ -224,12 +224,12 @@ section > div > img{
 
 #div3 > p{
     position: relative;
-    top: 85%;
+    top: 87%;
 }
 
 #div4 > p{
     position: relative;
-    top: 85%;
+    top: 86%;
 }
 
 #div5 > p{
@@ -316,7 +316,7 @@ footer > p{
         display: block;
 
         position: absolute;
-        top: 37px;
+        top: 30px;
         right: 50px;
     }
 
@@ -368,5 +368,35 @@ footer > p{
         display: block;
     }
 
+    header{
+        background-size: 500%;
+        background-position: 50% 25%;
+        height: 50vh;
+        width: 100%;
+    }
 
+    article{
+        flex-direction: column !important;
+    }
+
+    #tortenetArticle{
+        height: 100%;
+    }
+
+    #tortenetDiv1{
+        width: 100%;
+    }
+
+    #tortenetDiv2{
+        width: 90%;
+        position: relative;
+    }
+
+    #tortenetDiv1 > h2{
+        font-size: 40px;
+    }
+
+    #tortenetDiv1 > h6, #tortenetDiv2 > p{
+        font-size: 25px;
+    }
 }
