@@ -145,6 +145,9 @@ section > div > img{
     height: 100%;
 }
 
+#gombokDiv{
+    display: flex;
+}
 
 /* Grid system */
 
@@ -341,6 +344,10 @@ footer > p{
         margin: 0 10vw;
     }
 
+    .artButton{
+        width: 20vw;
+    }
+
     #kepTarto{
         width: 95%;
     }
@@ -392,11 +399,39 @@ footer > p{
         position: relative;
     }
 
-    #tortenetDiv1 > h2{
+    h2{
         font-size: 40px;
     }
 
-    #tortenetDiv1 > h6, #tortenetDiv2 > p{
+    h6, #tortenetDiv2 > p{
         font-size: 25px;
     }
+
+    #menuArticle > div{
+        width: 100%;
+        margin: 0 0;
+    }
+
+    #menuArticle > div > p{
+        font-size: 25px;
+        line-height: 35px;
+        margin: 0 0;
+    }
+
+    #gombokDiv{
+        width: 75%;
+        height: 200%;
+        flex-direction: column;
+        margin: 5vh auto !important;
+    }
+    
+    .artButton{
+        width: 80%;
+        height: 10vh;
+        font-size: 25px;
+        margin: 5vh auto !important;
+        padding: 0 0
+    }
+
+
 }
