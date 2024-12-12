@@ -463,9 +463,27 @@ footer > p{
 
     summary > div > h2{
         margin-right: 5vw;
+        font-size: 35px;
     }
 
+    #div1{
+        order: 0;
+    }
     #div2{
+        order: 3;
+    }
+    #div3{
         order: 1;
+    }
+    #div4{
+        order: 2;
+    }
+    #div5{
+        order: 4;
+    }
+
+    #nyitvaTarto > p, h4{
+        font-size: 25px;
+        line-height: 50px;
     }
 }
