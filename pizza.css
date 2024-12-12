@@ -127,7 +127,7 @@ header, section, article, summary, footer{
 }
 
 section{
-    height: 90vh;
+    height: 110vh;
 }
 
 section > h2{
@@ -152,8 +152,8 @@ section > div > img{
 /* Grid system */
 
 #kepTarto {
-    width: 65%;
-    height: 65%;
+    width: 60%;
+    height: 75%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -463,5 +463,9 @@ footer > p{
 
     summary > div > h2{
         margin-right: 5vw;
+    }
+
+    #div2{
+        order: 1;
     }
 }
