@@ -24,6 +24,10 @@ h2, h3{
     margin: 0;
 }
 
+a{
+    color: #cecece;
+}
+
 p{
     color: #cecece;
     line-height: 25px;
@@ -384,6 +388,8 @@ footer > p{
 
     article{
         flex-direction: column !important;
+        padding: 15% 2% !important;
+        margin: 0 0 !important;
     }
 
     #tortenetArticle{
@@ -399,8 +405,18 @@ footer > p{
         position: relative;
     }
 
+    #tortenetDiv2 > p{
+        line-height: 35px;
+    }
+
+    #tortenetDiv2 > h3{
+        width: 75%;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
     h2{
-        font-size: 40px;
+        font-size: 28px;
     }
 
     h6, #tortenetDiv2 > p{
@@ -441,6 +457,8 @@ footer > p{
         display: flex;
         flex-direction: column;
         height: 90%;
+        grid-column-gap: 30px;
+        grid-row-gap: 50px;
     }
 
     #kepTarto > div{
@@ -459,31 +477,86 @@ footer > p{
     summary{
         flex-direction: column;
         width: 90vw;
+        
     }
 
     summary > div > h2{
-        margin-right: 5vw;
-        font-size: 35px;
+        font-size: 25px;
     }
 
     #div1{
         order: 0;
+        background-size: 100% 105% !important;
+        background-position: 5% 0px !important;
+        height: 70vh !important;
     }
     #div2{
         order: 3;
+        background-size: 150% 100% !important;
+        background-position: 75% 0px !important;
+        height: 100vh !important;
+    }
+    #div2 > p{
+        position: relative;
+        top: 92% !important;
+        font-size: 20px;
     }
     #div3{
         order: 1;
+        background-size: 150% 100% !important;
+        background-position: 45% 0px !important;
+        height: 100vh !important;
     }
     #div4{
         order: 2;
+        background-size: 115% 100% !important;
+        background-position: 60% 0px !important;
+        height: 100vh !important;
     }
     #div5{
         order: 4;
+        background-size: 100% 250% !important;
+        background-position: 50% 55% !important;
+        height: 75vh !important;
     }
 
-    #nyitvaTarto > p, h4{
+    #nyitvaTarto{
+        margin: 35px 2.5%;
+        padding: 0 0;
+        width: 100%;
+    }
+
+    #nyitvaTarto > p{
         font-size: 25px;
         line-height: 50px;
+    }
+
+    #nyitvaTarto > h4{
+        font-size: 25px;
+        margin-top: 0px;
+        margin: 0 0;
+    }
+
+    #szeretTarto{
+        margin: 0 0;
+    }
+
+    #foglalasTarto{
+        width: 100%;
+    }
+
+    #foglalasTarto > h4, #foglalasTarto > a{
+        font-size: 25px;
+        line-height: 0px;
+    }
+
+    #foglalasTarto > p{
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    footer > p{
+        font-size: 20px;
+        line-height: 35px;
     }
 }
