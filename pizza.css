@@ -9,7 +9,7 @@ body{
 header{
     background-image: url(img/pizza.jpg);
     background-size: cover;
-    background-position: 50% 38%;
+    background-position: 50% 50%;
     height: 50vh;
     width: 100%;
 }
@@ -131,7 +131,7 @@ header, section, article, summary, footer{
 }
 
 section{
-    height: 110vh;
+    height: 85vh;
 }
 
 section > h2{
@@ -216,7 +216,7 @@ section > div > img{
     margin: 0px 0px;
     text-align: center;
     color: white;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 #div1 > p{
@@ -248,8 +248,8 @@ section > div > img{
 summary{
     display: flex;
     flex-direction: row;
-    width: 80%;
-    padding: 0 10% 0 10%;
+    width: 65%;
+    margin: 0 auto;
 }
 
 summary > div{
@@ -263,12 +263,12 @@ summary > div > h2{
     margin-top: 20px;
 }
 
-#szeretetTarto{
-    width: 5%;
+#szeretTarto{
+    width: 60%;
 }
 
 #nyitvaTarto{
-    width: 90%;
+    width: 75%;
 }
 
 #nyitvaTarto > p{
@@ -277,7 +277,7 @@ summary > div > h2{
 }
 
 #foglalasTarto{
-    width: 90%;
+    width: 60%;
 }
 
 #foglalasTarto > p{
@@ -344,8 +344,8 @@ footer > p{
 
     #menuArticle > div{
         padding: 6vh 0px;
-        width: 80%;
-        margin: 0 10vw;
+        width: 95%;
+        margin: 0 auto;
     }
 
     .artButton{
@@ -364,6 +364,14 @@ footer > p{
     footer{
         width: 100%;
         padding: 0px 0px;
+    }
+
+    #div2 > p{
+        top: 93% !important;
+    }
+
+    #div3 > p{
+        top: 88% !important;
     }
 }
 
@@ -388,7 +396,7 @@ footer > p{
 
     article{
         flex-direction: column !important;
-        padding: 15% 2% !important;
+        padding: 5% 2% !important;
         margin: 0 0 !important;
     }
 
@@ -416,7 +424,7 @@ footer > p{
     }
 
     h2{
-        font-size: 28px;
+        font-size: 40px;
     }
 
     h6, #tortenetDiv2 > p{
@@ -481,7 +489,7 @@ footer > p{
     }
 
     summary > div > h2{
-        font-size: 25px;
+        font-size: 40px;
     }
 
     #div1{
@@ -558,5 +566,31 @@ footer > p{
     footer > p{
         font-size: 20px;
         line-height: 35px;
+    }
+}
+
+/* kisebb nagyobb fixek */
+
+@media screen and (max-width: 998px){
+    #div2 > p{
+        top: 88%;
+    }
+}
+
+@media screen and (max-width: 926px){
+    #div3 > p{
+        top: 80%;
+    }
+}
+
+@media screen and (max-width: 637px){
+    #div2 > p{
+        top: 88% !important;
+    }
+}
+
+@media screen and (max-width: 591px){
+    #div3 > p{
+        top: 78% !important;
     }
 }
