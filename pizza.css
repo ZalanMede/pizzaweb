@@ -50,13 +50,13 @@ h6{
     margin: 35px 15px;
 }
 
-#menu a{
+#menu > a{
     color: white;
     text-decoration: none;
     margin: 16px 5px;
 }
 
-#menu p{
+#menu > p{
     position: relative;
     bottom: 3px;
 }
@@ -319,6 +319,16 @@ footer > p{
         margin: 37px 75px;
     }
 
+    #menu > a{
+        font-size: small;
+        bottom: 6px
+    }
+
+    #menu > p{
+        font-size: small;
+        bottom: 0.75px;
+    }
+
     #hambMenu{
         display: block;
 
@@ -381,6 +391,16 @@ footer > p{
 @media screen and (max-width: 576px){
     #menu{
         display: none;
+    }
+
+    #menu > a{
+        font-size: 9px;
+        bottom: 6px
+    }
+
+    #menu > p{
+        font-size: 9px;
+        bottom: 0.75px;
     }
 
     #hambMenu{
