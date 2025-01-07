@@ -40,6 +40,10 @@ h6{
     font-weight: lighter;
 }
 
+.menuPont{
+    color: #cecece !important;
+}
+
 #menu{
     float: right;
     display: flex;
@@ -157,7 +161,7 @@ section > div > img{
 
 #kepTarto {
     width: 60%;
-    height: 75%;
+    height: 70%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -292,15 +296,13 @@ summary > div > h2{
 footer{
     width: 70%;
     padding: 0 5%;
-    margin: 0 auto;
+    margin: 0 auto 5% auto;
 }
 
 footer > p{
     text-align: center;
     font-size: 12px;
 }
-
-
 
 /* hambruger menu dolgok*/
 #hambMenu{
@@ -310,6 +312,8 @@ footer > p{
     font-size: 38px;
     font-weight: 500;
 }
+
+
 
 /* MD méret*/
 
@@ -360,6 +364,10 @@ footer > p{
 
     .artButton{
         width: 20vw;
+    }
+
+    section{
+        height: 80vh;
     }
 
     #kepTarto{
@@ -515,14 +523,14 @@ footer > p{
     #div1{
         order: 0;
         background-size: 100% 105% !important;
-        background-position: 5% 0px !important;
-        height: 70vh !important;
+        background-position: 5% 85% !important;
+        height: 80% !important;
     }
     #div2{
         order: 3;
-        background-size: 150% 100% !important;
-        background-position: 75% 0px !important;
-        height: 100vh !important;
+        background-size: 175% 100% !important;
+        background-position: 55% 50% !important;
+        height: 105% !important;
     }
     #div2 > p{
         position: relative;
@@ -533,19 +541,19 @@ footer > p{
         order: 1;
         background-size: 150% 100% !important;
         background-position: 45% 0px !important;
-        height: 100vh !important;
+        height: 95% !important;
     }
     #div4{
         order: 2;
         background-size: 115% 100% !important;
         background-position: 60% 0px !important;
-        height: 100vh !important;
+        height: 95% !important;
     }
     #div5{
         order: 4;
         background-size: 100% 250% !important;
         background-position: 50% 55% !important;
-        height: 75vh !important;
+        height: 75% !important;
     }
 
     #nyitvaTarto{
@@ -556,7 +564,7 @@ footer > p{
 
     #nyitvaTarto > p{
         font-size: 25px;
-        line-height: 50px;
+        line-height: 40px;
     }
 
     #nyitvaTarto > h4{
@@ -566,7 +574,13 @@ footer > p{
     }
 
     #szeretTarto{
-        margin: 0 0;
+        margin: 0 0 5% 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    #szeretTarto > h2{
+        font-size: 35px;
     }
 
     #foglalasTarto{
@@ -612,5 +626,20 @@ footer > p{
 @media screen and (max-width: 591px){
     #div3 > p{
         top: 78% !important;
+    }
+}
+
+
+/* Mobil text fix */
+
+@media screen and (max-width: 576px){
+    #div2 > p{
+        top: 94% !important;
+    }
+    #div3 > p{
+        top: 92% !important;
+    }
+    #div4 > p{
+        top: 92% !important;
     }
 }
