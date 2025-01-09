@@ -324,13 +324,14 @@ footer > p{
     }
 
     #menu > a{
-        font-size: small;
-        bottom: 6px
+        font-size: 2.5vw;
+        line-height: 0px;
     }
 
     #menu > p{
-        font-size: small;
-        bottom: 0.75px;
+        font-size: 2.5vw;
+        line-height: 0px;
+        bottom: 0.75vw;
     }
 
     #hambMenu{
@@ -452,7 +453,7 @@ footer > p{
     }
 
     h2{
-        font-size: 40px;
+        font-size: 8vw;
     }
 
     h6, #tortenetDiv2 > p{
@@ -486,7 +487,8 @@ footer > p{
     }
 
     section{
-        height: 250vh;
+        height: 100%;
+        padding: 0 0 5vh 0;
     }
 
     #kepTarto{
@@ -513,7 +515,8 @@ footer > p{
     summary{
         flex-direction: column;
         width: 90vw;
-        
+        margin: 0;
+        padding: 0;
     }
 
     summary > div > h2{
@@ -524,13 +527,13 @@ footer > p{
         order: 0;
         background-size: 100% 105% !important;
         background-position: 5% 85% !important;
-        height: 80% !important;
+        height: 37vh !important;
     }
     #div2{
         order: 3;
         background-size: 175% 100% !important;
         background-position: 55% 50% !important;
-        height: 105% !important;
+        height: 95vh !important;
     }
     #div2 > p{
         position: relative;
@@ -541,19 +544,19 @@ footer > p{
         order: 1;
         background-size: 150% 100% !important;
         background-position: 45% 0px !important;
-        height: 95% !important;
+        height: 55vh !important;
     }
     #div4{
         order: 2;
         background-size: 115% 100% !important;
         background-position: 60% 0px !important;
-        height: 95% !important;
+        height: 60vh !important;
     }
     #div5{
         order: 4;
         background-size: 100% 250% !important;
         background-position: 50% 55% !important;
-        height: 75% !important;
+        height: 35vh !important;
     }
 
     #nyitvaTarto{
@@ -588,7 +591,7 @@ footer > p{
     }
 
     #foglalasTarto > h4, #foglalasTarto > a{
-        font-size: 25px;
+        font-size: 5vw;
         line-height: 0px;
     }
 
