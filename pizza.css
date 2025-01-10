@@ -65,6 +65,10 @@ h6{
     bottom: 3px;
 }
 
+#menu > a:hover{
+    color: #101010 !important;
+}
+
 header, section, article, summary, footer{
     margin: 0;
     padding: 0;
@@ -318,28 +322,40 @@ footer > p{
 /* MD méret*/
 
 @media screen and (max-width: 768px){
+
+    /* Hamburger Menü */
     #menu{
         display: none;
-        margin: 37px 75px;
+        flex-direction: column;
+        margin: 0 0;
+        padding: 0 0;
+        position: relative;
+        bottom: 25px;
     }
 
-    #menu > a{
-        font-size: 2.5vw;
-        line-height: 0px;
+    #menu > a, #menu > p{
+        font-size: 150%;
+        text-align: center;
+        width: 95vw;
+        margin: 0 0;
+        padding: 2vh 2vw;
+        background-color: #222222;
+        bottom: 0;
     }
 
-    #menu > p{
-        font-size: 2.5vw;
-        line-height: 0px;
-        bottom: 0.75vw;
+    .mobilInvis{
+        display: none;
     }
 
     #hambMenu{
         display: block;
-
         position: absolute;
         top: 30px;
         right: 50px;
+    }
+
+    #menu > a:hover{
+        background-color: #cecece;
     }
 
     header{
@@ -398,23 +414,8 @@ footer > p{
 /* Mobil méret*/
 
 @media screen and (max-width: 576px){
-    #menu{
-        display: none;
-    }
 
-    #menu > a{
-        font-size: 9px;
-        bottom: 6px
-    }
-
-    #menu > p{
-        font-size: 9px;
-        bottom: 0.75px;
-    }
-
-    #hambMenu{
-        display: block;
-    }
+    /* Elemek */
 
     header{
         background-size: 500%;
