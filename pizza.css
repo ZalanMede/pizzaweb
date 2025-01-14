@@ -332,14 +332,15 @@ footer > p{
         padding: 0 0;
         position: relative;
         bottom: 25px;
+        width: 100%;
     }
 
     #menu > a, #menu > p{
         font-size: 150%;
         text-align: center;
-        width: 100vw;
+        width: 100%;
         margin: 0 0;
-        padding: 2vh 2vw;
+        padding: 2vh 0 2vh 0;
         background-color: #222222;
         bottom: 0;
     }
